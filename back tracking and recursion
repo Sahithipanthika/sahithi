@@ -1,0 +1,8 @@
+def sahi(a):
+    if a==1:
+        return
+    a-=1
+    sahi(a)
+    print("hello")
+    sahi(a)
+sahi(5)    
