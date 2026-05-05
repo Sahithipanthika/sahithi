@@ -16,7 +16,7 @@ class LinkedList:
             temp.next=newnode
     def display(self):    
         temp=self.head
-        while temp.next:
+        while temp:
             print(temp.data,end="->")
             temp=temp.next
 l=LinkedList()
